@@ -4,6 +4,8 @@ project:
   preview:
     port: 4200
     browser: false
+  execute:
+    freeze: auto
 
 website:
   title: "APT"
@@ -15,6 +17,10 @@ website:
     left:
       - text: "Stay Updated"
         href: seminars.qmd
+      - href: index.qmd
+        text: Home
+      - seminars.qmd
+      - community.qmd
     right:
       - icon: youtube
         href: https://www.youtube.com/@APTSeminars
@@ -45,7 +51,8 @@ format:
         <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400;1,600&family=Source+Sans+3:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
     mainfont: "Source Sans 3"
     monofont: "Source Code Pro"
-    toc: false
+    headingfont: "Crimson Pro"
+    toc: true
     page-layout: full
     title-block-banner: false
 

@@ -1,20 +1,12 @@
 [build]
   publish = "_site"
-  command = """
-    set -e
-    echo "Downloading Quarto..."
-    curl -L https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.549/quarto-1.4.549-linux-amd64.deb -o quarto.deb
-    echo "Installing Quarto..."
-    sudo dpkg -i quarto.deb
-    echo "Quarto version:"
-    quarto --version
-    echo "Rendering site..."
-    quarto render
-  """
+
+[[plugins]]
+  package = "@quarto/netlify-plugin-quarto"
 
 [build.environment]
   PYTHON_VERSION = "3.9"
-  
+
 [[redirects]]
   from = "/*"
   to = "/404.html"
