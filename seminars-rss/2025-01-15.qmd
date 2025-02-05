@@ -1,0 +1,16 @@
+---
+title: New Approximation Algorithms for Vertex Cover
+speaker: Bob Smith
+affiliation: ETH Zürich
+date: '2025-01-15'
+published: '2025-01-15'
+date-format: MMMM D, YYYY
+abstract: 'This talk presents a novel approximation algorithm for the Vertex Cover
+  problem, improving upon the long-standing 2-approximation barrier. We''ll discuss
+  the key techniques, including a new rounding scheme for the LP relaxation and its
+  analysis.
+
+  '
+---
+
+{{< meta abstract >}}

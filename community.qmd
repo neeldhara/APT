@@ -1,0 +1,9 @@
+---
+title: "Community"
+page-layout: article
+title-block-banner: false
+---
+
+The Algorithms: Theory and Practice (APT) Seminar series features talks on various aspects of theoretical computer science, with a focus on algorithms, complexity theory, and their applications in practice.
+
+The seminar typically runs on Wednesdays at 16:00 IST. For announcements and updates, please join our mailing list.

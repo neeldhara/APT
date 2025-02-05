@@ -1,0 +1,81 @@
+---
+title: "Algorithms: Practice and Theory"
+listing:
+  - id: upcoming
+    contents: seminars
+    type: table
+    fields: [date, title, speaker]
+    field-display-names:
+      speaker: "Speaker"
+    sort: "date desc"
+    filter-ui: false
+    sort-ui: false
+    categories: false
+    field-links: [title]
+    include:
+      status: upcoming
+  - id: past
+    contents: seminars
+    type: table
+    fields: [date, title, speaker]
+    field-display-names:
+      speaker: "Speaker"
+    sort: "date desc"
+    filter-ui: false
+    sort-ui: false
+    categories: false
+    field-links: [title]
+    include:
+      status: past
+---
+
+
+Welcome to the homepage for the APT (Algorithms: Practice and Theory) seminar! This is a virtual fortnightly seminar series, where we discuss recent advancements in the field of algorithms and complexity, from perspectives of both theory and practice. 
+
+::: {.callout}
+<i class="fa-regular fa-calendar"></i> We meet over Zoom at 20:00IST every alternate Wednesday. Find out how you can [stay updated](seminars.qmd).
+:::
+
+We also welcome you to suggest a seminar! Feel free to sign yourself up, or someone you want to hear, or just share a topic that you want to learn about. You can do this by sending an email to `aptseminars@gmail.com`.
+
+### Organizers
+
+::: {.organizer-grid}
+
+::: {.organizer}
+![](images/akanksha.png)
+
+::: {.organizer-info}
+#### Akanksha Agrawal
+Veena and Induprakas Keri Faculty Fellow, Assistant Professor  
+Department of Computer Science & Engineering  
+Indian Institute of Technology Madras
+:::
+:::
+
+::: {.organizer}
+![](images/neeldhara.jpg)
+
+::: {.organizer-info}
+#### Neeldhara Misra
+Associate Smt Amba and V S Sastry Chair Professor  
+Department of Computer Science & Engineering  
+IIT Gandhinagar
+:::
+:::
+
+:::
+
+::: {.panel-tabset}
+
+## Upcoming Seminars
+
+:::{#upcoming}
+:::
+
+## Past Seminars
+
+:::{#past}
+:::
+
+:::

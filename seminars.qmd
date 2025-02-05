@@ -1,0 +1,28 @@
+---
+title: "Stay Updated"
+page-layout: full
+title-block-banner: false
+---
+
+You can subscribe to our RSS feed to get automatic updates about upcoming seminars: [{{< fa square-rss >}} RSS Feed](seminars-rss.xml).
+
+You can also add the [conference calendar](https://calendar.google.com/calendar/u/0?cid=M2VhODEwZTBlNDEwM2VkMWYyMjVkZjcyYjc4MmNjYjg2ZmJiN2JlMzk5OGIzZjg3YmM3NTFkNTVhODNlM2ZmOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to your own calendar.
+
+You can also join the [APT Seminar Whatsapp Group](https://chat.whatsapp.com/JD7TorsUNYvENUvkoFWej1) for reminders.
+
+---
+
+Finally, you can drop your email below for email updates:
+
+<form
+  action="https://buttondown.com/api/emails/embed-subscribe/apt-seminars"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.com/apt-seminars', 'popupwindow')"
+  class="embeddable-buttondown-form"
+>
+  <label for="bd-email">Enter your email</label>
+  <input type="email" name="email" id="bd-email" />
+  
+  <input type="submit" value="Subscribe" />
+</form>

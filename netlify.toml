@@ -1,0 +1,11 @@
+[build]
+  publish = "_site"
+  command = "quarto render"
+
+[build.environment]
+  PYTHON_VERSION = "3.9"
+  
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
