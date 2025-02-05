@@ -1,8 +1,14 @@
 [build]
   publish = "_site"
   command = """
-    wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.549/quarto-1.4.549-linux-amd64.deb && \
-    sudo dpkg -i quarto-1.4.549-linux-amd64.deb && \
+    set -e
+    echo "Downloading Quarto..."
+    curl -L https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.549/quarto-1.4.549-linux-amd64.deb -o quarto.deb
+    echo "Installing Quarto..."
+    sudo dpkg -i quarto.deb
+    echo "Quarto version:"
+    quarto --version
+    echo "Rendering site..."
     quarto render
   """
 

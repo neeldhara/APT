@@ -1,0 +1,8 @@
+{
+  "name": "apt-seminars",
+  "version": "1.0.0",
+  "description": "APT (Algorithms: Practice and Theory) Seminar Series",
+  "scripts": {
+    "build": "quarto render"
+  }
+}
