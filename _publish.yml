@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: "bc04ecd5-4a6e-494c-95d9-2cc8a6134d29"
+      url: "https://aptseminar.netlify.app"
